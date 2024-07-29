@@ -1,0 +1,484 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 70px;
+    background-color: #ffffff;
+    color: white;
+    align-items: center;
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 40px;
+    width: 160px;
+    background-color: white;
+}
+
+.logo {
+    background-image: url("background-image.png");
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 100%;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+/* box 2 */
+
+.search-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    font-size: 1.4rem;
+    color: #888787;
+    
+}
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #DEE9F5;
+    width: 550px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.search-input {
+     width: 100%;
+     font-size: 1rem;
+     border: none;
+     background-color: #DEE9F5;
+     border-top-right-radius: 4px;
+     border-bottom-right-radius: 4px;
+}
+
+/* box 3 */
+
+.nav-login {
+    background-color: white;
+    width: 112px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    padding-right: 6px;
+    color: black;
+}
+
+.select-login {
+    border: none;
+    font-size: 1.25rem;
+    padding-right: 5px;
+}
+
+/* box 4 */
+
+.shopping-cart {
+    color: black;
+    font-size: 1.4rem;
+}
+
+/* box 5 */
+
+.store {
+    color: black;
+    font-size: 1.4rem;
+}
+
+/* box 6 */
+
+.three-dot {
+    color: black;
+    font-size: 1.4rem;
+}
+
+/* box 7  */
+
+.parent-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    height: 151px;
+    width: 90%;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    height: 151px;
+    width: 122px;
+    border: border-box;
+    background-color: white;
+    padding: 16px;
+}
+
+.box-img {
+    height: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.box-content span{
+   font-size: 14px;
+   font-weight: 200;
+   display: flex;
+   justify-content: center;
+   padding-top: 10px;
+   color: black;
+}
+
+.shop-section-select {
+    border: none;
+    margin-top: 10px;
+    padding-right: 4px;
+}
+
+.shop-section-link {
+    text-decoration: none;
+}
+
+/* box 8  */
+
+.highlight-box {
+    height: 166px;
+    width: 100%;
+    background-color: pink;
+    margin-top: 20px;
+}
+
+.highlight-img {
+    height: 165.2px;
+    background-size: cover;
+    background-position-y: top;
+    background-repeat: no-repeat;
+}
+
+/* box 9  */
+
+.shop-listing-electronics {
+    display: flex;
+    height: 28px;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 15px;
+    color: #212121;
+}
+
+.shop-listing-electronics-arrow {
+    margin-left: 800px;
+    font-size: 1.5rem;
+}
+
+/* box 10 */
+
+.product-listing-parent-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    height: 280px;
+    width: 95%;
+    margin-top: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 30px;
+   
+}
+
+.product-listing-shop-section {
+    height: 268px;
+    width: 216px;
+    border: border-box;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.listings {
+    width: 200px;
+    height: 252px;
+    background-color: rgb(255, 255, 255);
+    padding: 6px;
+    margin-right: 10px;
+}
+
+.listings-img {
+    height: 186px;
+    width: 186px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.listings span{
+    font-size: 14px;
+    font-weight: 200;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-top: 20px;
+    color: #212121;
+    white-space: nowrap;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.product-listing-link {
+    text-decoration: none;
+}
+
+.listing-prices {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    color: #212121;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+
+/* box 11 */
+
+
+.shop-listing3-electronics{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #212121
+}
+.shop-listing3-electronics-arrow {
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+.shop-listing3-electronics-link{
+    text-decoration: none;
+    color: #212121;
+}
+
+/* box 12  */
+
+.listing3-parent-container{
+    height: 260px;
+    width: 420px;
+   display: flex;
+   align-items: center;
+  
+   /* grid-template-columns: 1fr ,1fr; */
+   /* gap: 20px; */
+   /* margin: auto; */
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.listing3-shop-secton {
+      height: 261px;
+      width: 197px;
+      background-color: white;
+      margin-left: 10px;
+      margin-top: 10px;
+     display: flex;
+}
+
+
+.listing3-img {
+    height: 622px;
+    width: 852px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.listingbox3 {
+    margin-left: 10px;
+    height: 239px;
+    width: 187px;
+    background-color: white;
+}
+
+.listingbox3 a {
+      text-decoration: none;
+      color: black;
+}
+
+.listingbox3 span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    font-size: 17px;
+}
+
+.listing-prices {
+    font-size: 17px;
+}
+
+.newlistingbox {
+    margin-top: -20px;
+   
+}
+
+/* box 13 */
+
+.bannerimg-container {
+    margin-top: -300px;
+    margin-left: 100px;
+}
+.bannerimg {
+     display: flex;
+    
+    background-color: white;
+    height: 600px;
+    width: 600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+   /* margin-left: 600px; */
+}
+
+/** footer **/
+
+.footer {
+    margin-top: 15px;
+}
+
+.foot-panel1 {
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    margin-top: 23px;
+}
+
+.foot-panel2 {
+    margin-top: 50px   ;
+    background-color: #0f1111;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+.foot-panel2 ul {
+    font-weight: bolder;
+    
+}
+
+ul {
+    margin-top: 40px;
+    
+}
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+    text-decoration: none;
+    
+}
+
+.foot-panel3 {
+    background-color: #0f1111;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    background-image: url("amazon-logo.png");
+    background-size: contain;
+    background-position:center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100px;
+}
+
+.foot-panel4 {
+    background-color: #0f1111;
+    color: white;
+    height: 50px;
+    font-size: 0.7rem;
+    text-align: center;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-evenly; */
+   
+}
+
+.pages {
+    font-size: 0.7rem;
+    text-align: center;
+     padding-top: 25px;
+}
+
+.copyright {
+    padding-top: 5px;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.panelline {
+    width: 1px;
+    margin-top: 30px;
+    height: 70%;
+    border: 0.05px  solid white;
+}
+
+.foot-panel4end {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.foot-panel4end a {
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: white;
+}
+
+.foot-panel4end i {
+    color: rgb(228, 228, 30);
+}
